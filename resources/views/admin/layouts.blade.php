@@ -154,12 +154,6 @@
                                 <span class="title">文章列表</span>
                             </a>
                         </li>
-                        <li class="nav-item {{in_array(Request::path(), ['admin/articleLogList']) ? 'active open' : ''}}">
-                            <a href="{{url('admin/articleLogList')}}" class="nav-link ">
-                                <i class="icon-list"></i>
-                                <span class="title">文章访问日志</span>
-                            </a>
-                        </li>
                     </ul>
                 </li>
                 <li class="nav-item {{in_array(Request::path(), ['admin/userList', 'admin/addUser', 'admin/editUser', 'admin/userOrderList', 'admin/userBalanceLogList', 'admin/userBanLogList', 'admin/export', 'admin/userMonitor']) ? 'active open' : ''}}">
@@ -303,7 +297,7 @@
 <!-- END CONTAINER -->
 <!-- BEGIN FOOTER -->
 <div class="page-footer">
-    <div class="page-footer-inner"> 2017 &copy; <a href="https://github.com/ssrpanel/ssrpanel" target="_blank">SSRPanel</a> </div>
+    <div class="page-footer-inner"> 2017 - 2018 &copy; <a href="https://github.com/ssrpanel/ssrpanel" target="_blank">SSRPanel</a> </div>
     <div class="scroll-to-top">
         <i class="icon-arrow-up"></i>
     </div>
